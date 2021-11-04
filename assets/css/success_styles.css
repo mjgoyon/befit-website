@@ -1,0 +1,141 @@
+*{
+    margin:0;
+}
+html { 
+    background-color:#222222;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+#header{
+    font-weight: 600;
+    font-size: 40px;
+    color: #FA632A;
+    padding-top: 4.5rem;
+    padding-bottom: 4rem;
+}
+
+
+.infodiv{
+    margin: 3rem auto 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    overflow: hidden;
+    width: 50%;
+}
+
+.market-header{
+    font-family: 'Poppins';
+    line-height: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.success-img{
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.success-img img{
+    max-width: 250px;
+}
+
+.infoheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FA632A;
+    align-items: center;
+    padding: 3rem 0 3rem;
+    width: 100%;
+}
+
+.infohead{
+    font-family: 'Poppins';
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.infotext{
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #383838;
+    padding: 3rem;
+    font-size: 20px;
+}
+
+.service-info{
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.info-row{
+    line-height: 2.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+}
+
+
+.btn-choices{
+    padding-top: 1rem;
+    display: flex;
+    margin: 2rem auto;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 1rem;
+}
+
+.btn-1{
+    font-family: 'Poppins', 'sans-serif';
+    border-radius: 2px;
+    background-color: #e5e5e5a2;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+    font-weight: 600;
+
+}
+
+.btn-1 a{
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    padding: 0.5rem;
+    color: #FFFFFF;
+}
+
+.btn-2{
+    font-family: 'Poppins', 'sans-serif';
+    border-radius: 2px;
+    background-color: #FA632A;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+    font-weight: 600;
+
+}
+
+.btn-2 a{
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    padding: 0.5rem;
+    color: #FFFFFF;
+}

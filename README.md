@@ -1,1 +1,1 @@
-# befit-website
+# BeFit

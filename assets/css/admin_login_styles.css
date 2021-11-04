@@ -1,0 +1,98 @@
+html { 
+    background: url(../images/bg2.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.error-msg{
+    color: #ff2a2a;
+    text-align: center;
+    line-height: 0.3;
+}
+
+.correct-msg{
+    color: #00a31b;
+    text-align: center;
+    line-height: 0.3;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.forms form {
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+input[type="text"], input[type="password"], select, textarea {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-right: 20px;
+    width: 500px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 6px;
+    display: inline-block;
+    border: none;
+    border-bottom: solid 1px #FFFFFF;
+    background: none;
+}
+
+input[type="text"]:focus, [type="password"]:focus, textarea:focus {
+    outline: none;
+}
+
+.registerbtn {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+input[type="submit"] {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    background-color: #E5E5E5;
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    padding: 0.75rem;
+    width: 100%;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #fa632a;
+    transition: all 0.3s;
+}

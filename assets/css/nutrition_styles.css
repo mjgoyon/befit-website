@@ -1,0 +1,235 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+#header{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 60px;
+  color: #FA632A;
+  padding-top: 4.5rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+#border {
+  margin: 3rem auto;
+  border-top: 1px solid #b1b1b1ab;
+  width: 80%;
+}
+
+.container{
+  max-width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Poppins', 'sans-serif';
+  background-color: #181818;
+  color: #FFFFFF;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.container h1{
+    font-size: 24px;
+    line-height: 0;
+}
+
+.container h2{
+    font-size: 60px;
+    line-height: 0;
+}
+
+.btn-container{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.btn-container a{
+    text-decoration: none;
+    background-color: #FA632A;
+    border: solid 2px #FA632A;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 15%;
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.btn-container a:hover{
+    transition: 0.2s ease-in;
+    background-color: transparent;
+    border: solid 2px #FA632A;
+    color: black;
+    font-weight: 500;
+}
+
+.nutritionheader{
+	position:relative;
+	width: calc(400px - 30px);
+	height: 50px;
+	background: #181818;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow:hidden;
+	box-shadow: 0 5px 10px  rgba(0,0,0,.8);
+  display: table;
+  text-align: center;
+}
+
+.nutritionheader a{
+    text-decoration: none;
+    color: #FA632A;
+    font-size: 18px;
+}
+.containbox{
+	position:relative;
+	width:1200px;
+	height:auto;
+	margin: 30px auto 0;
+	padding-bottom: 40px;
+	background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.containbox a{
+    text-decoration: none;
+	color: #FA632A;
+    font-size: 18px;
+}
+.ptext{
+    position:relative;
+    padding: 30px 0px 30px 0px;
+    width:100%;
+    text-align:center;
+    color:white;
+    font-family: 'Poppins';
+    font-size:64px;
+    letter-spacing:4px;
+    text-transform:uppercase;
+  }
+
+hr{
+    border: 3px solid white;
+    width: 80%;
+    margin: auto;
+}
+
+.infodiv{
+	position:relative;
+	width:60%;
+	height:auto;
+	margin: 30px auto 0;
+  word-wrap: break-word
+}
+
+.infoimg{
+    max-width: 100%;
+    height: auto;
+}
+
+.infohead{
+    font-family: 'Poppins';
+    color:#FA632A;
+    display: block;
+    font-size:20px;
+    font-weight: bold;
+}
+.infotext{
+    font-family: 'Poppins';
+    color:white;
+    display: block;
+    font-size:20px;
+}
+
+footer img {
+    max-height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+  
+  footer ul li {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  footer ul li a {
+    list-style-type: none;
+    color: aliceblue;
+  }
+  footer ul li a:hover {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #181818;
+    color: aliceblue;
+    z-index: 200;
+    padding-bottom: 10px;
+  }
+  
+  footer p {
+    text-align: center;
+    padding: 0% 20% 0% 20%;
+  }
+  
+  footer ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 3%;
+    margin-left: 12%;
+    margin-right: 8%;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  
+  footer hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 1px;
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+  }
+
+  ol {
+    display: block;
+    margin: auto;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+  
+  ol li {
+    display: inline-block;
+    margin: auto;
+  }
+  footer .infohead{
+      font-size: 16px;
+  }
